@@ -1,0 +1,122 @@
+/* ---------- HEADER ---------- */
+header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(16, 101, 228);
+    border-radius: 8px;
+    color: white;
+    padding: 20px 0;
+}
+
+/* ---------- BODY ---------- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #1261a0, #58cced);
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- NAVIGATION ---------- */
+nav {
+    background: rgb(16, 101, 228);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 12px 0;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #d7e9ff;
+}
+
+/* ---------- SECTIONS ---------- */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ---------- ABOUT IMAGE ---------- */
+.about-me {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.text {
+    flex: 1;
+}
+
+.about-me img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* ---------- SKILLS ---------- */
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    display: inline-block;
+    background: #222;
+    color: white;
+    padding: 8px 12px;
+    margin: 6px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* ---------- EXPERIENCE / ATTRIBUTES / CONTACT ---------- */
+.experience,
+.attributes,
+.contact {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fafafa;
+    border-left: 4px solid #222;
+    border-radius: 5px;
+}
+
+.experience ul,
+.attributes ul {
+    padding-left: 20px;
+}
+
+.experience {
+    text-align: center;
+}
+
+.experience figure {
+    display: inline-block;
+    margin: 10px;
+}
+
+.experience figcaption {
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
